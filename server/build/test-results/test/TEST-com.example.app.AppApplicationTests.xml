@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.app.AppApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-29T03:15:31" hostname="47d68752ea71" time="0.539">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.app.AppApplicationTests" time="0.539"/>
+  <system-out><![CDATA[03:15:24.406 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.app.AppApplicationTests]: AppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+03:15:24.581 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.app.AppApplication for test class com.example.app.AppApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2024-07-29T03:15:25.351Z  INFO 1841 --- [    Test worker] com.example.app.AppApplicationTests      : Starting AppApplicationTests using Java 17.0.2 with PID 1841 (started by root in /srv)
+2024-07-29T03:15:25.352Z  INFO 1841 --- [    Test worker] com.example.app.AppApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-07-29T03:15:26.482Z  INFO 1841 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-29T03:15:26.558Z  INFO 1841 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2024-07-29T03:15:27.220Z  INFO 1841 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-29T03:15:27.391Z  INFO 1841 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-29T03:15:27.486Z  INFO 1841 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-29T03:15:28.289Z  INFO 1841 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-29T03:15:28.360Z  INFO 1841 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-29T03:15:28.515Z  INFO 1841 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4f8659d0
+2024-07-29T03:15:28.519Z  INFO 1841 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-29T03:15:28.584Z  WARN 1841 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-29T03:15:30.398Z  INFO 1841 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-29T03:15:30.404Z  INFO 1841 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-29T03:15:30.856Z  WARN 1841 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-29T03:15:31.397Z  INFO 1841 --- [    Test worker] com.example.app.AppApplicationTests      : Started AppApplicationTests in 6.474 seconds (process running for 7.778)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
